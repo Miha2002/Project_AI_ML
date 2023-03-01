@@ -1,8 +1,3 @@
-'''
-Iancu Florentina-Mihaela
-grupa 361
-'''
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -383,33 +378,16 @@ print('\nRezultate pt limba daneza: ')
 show_accuracy_and_matrix_5fold(labels_da, preds_da, x)
 
 print('\nRezultate pt limba germana: ')
-show_accuracy_and_matrix_5fold(labels_da, preds_da, x)
+show_accuracy_and_matrix_5fold(labels_ge, preds_ge, x)
 
 print('\nRezultate pt limba spaniola: ')
-show_accuracy_and_matrix_5fold(labels_da, preds_da, x)
+show_accuracy_and_matrix_5fold(labels_sp, preds_sp, x)
 
 print('\nRezultate pt limba italiana: ')
-show_accuracy_and_matrix_5fold(labels_da, preds_da, x)
+show_accuracy_and_matrix_5fold(labels_it, preds_it, x)
 
 print('\nRezultate pt limba olandeza: ')
-show_accuracy_and_matrix_5fold(labels_da, preds_da, x)
-
-# Nu pot obtine confusion matrix
-
-# scores = cross_val_score(model, da_train, labels_da, cv=5)
-# print('Accuracy pt limba daneza: ',scores)
-
-# scores = cross_val_score(model, ge_train, labels_ge, cv=5)
-# print('Accuracy pt limba germana: ',scores)
-
-# scores = cross_val_score(model, sp_train, labels_sp, cv=5)
-# print('Accuracy pt limba spaniola: ',scores)
-
-# scores = cross_val_score(model, it_train, labels_it, cv=5)
-# print('Accuracy pt limba italiana: ',scores)
-
-# scores = cross_val_score(model, ol_train, labels_ol, cv=5)
-# print('Accuracy pt limba olandeza: ',scores)
+show_accuracy_and_matrix_5fold(labels_ol, preds_ol, x)
 
 
 # predict pt test data
