@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 from collections import Counter
 
 import langid
+
 langid.set_languages(['da', 'de', 'es', 'it', 'nl'])  # ISO 639-1 codes
 
 # CITIREA SI PREPROCESAREA DATELOR DE ANTRENAMENT
